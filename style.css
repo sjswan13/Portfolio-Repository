@@ -11,6 +11,30 @@
   margin: 20px auto; 
 }
 
+.content-box2 {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 20px;
+  width: fit-content;
+  margin: 20px auto;
+  justify-content: left;
+}
+
+.content-box ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.boxed-section {
+  display: inline-block;
+  border: 1px solid rgb(230, 222, 234);
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .content-box {
   border: solid 3px black;
   justify-content: center;
