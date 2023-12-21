@@ -56,11 +56,29 @@
 }
 
 .custom-image2 {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.custom-image3 {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-image4 {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 15%;
 }
 
 .border-box2 {
@@ -69,4 +87,19 @@
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+.button {
+  display:inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: chartreuse;
+  color:black;
+  border-style: groove;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.button:hover {
+  background-color: rgb(3, 65, 3);
 }
