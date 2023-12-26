@@ -1,7 +1,66 @@
-.h1 {
+body {
+  background-color: rgb(144, 146, 140);
+}
+
+nav {
+  box-shadow: 0 0 12px -1px rgb(150, 4, 150);
+  position: fixed;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: darkolivegreen;
+  color: rgb(237, 180, 106);
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+main {
+  min-height: 100vh;
+  max-width:fit-content;
+  margin: auto;
+  padding: 90px 30px 95px;
+  box-shadow: 0 0 12px -2px;
+  color: rgb(237, 180, 106);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  background-color: rgb(120, 123, 117);
+
+}
+
+main > img {
+  width: 300px;
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px;
+}
+
+main .quote {
   text-align: center;
-  font-size: 50px;
-  justify-content: center;
+  margin-top: 7em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 23px;
+}
+
+
+footer {
+  background-color: darkolivegreen;
+  color: rgb(237, 180, 106);
+  height: 70px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: right;
+
 }
 
 .border-box {
@@ -45,6 +104,7 @@
 
 .image-container {
   text-align: center;
+
 }
 
 .custom-image {
@@ -93,13 +153,13 @@
   display:inline-block;
   padding: 5px 10px;
   text-decoration: none;
-  background-color: chartreuse;
-  color:black;
-  border-style: groove;
+  background-color: rgb(255, 140, 0);
+  color:rgb(54, 33, 5);
+  border-style: outset;
   border-radius: 5px;
-  transition: background-color 0.5s ease;
+  border-color: antiquewhite;
 }
 
 .button:hover {
-  background-color: rgb(3, 65, 3);
+  background-color: rgb(242, 217, 51);
 }
