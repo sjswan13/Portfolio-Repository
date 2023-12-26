@@ -18,10 +18,11 @@ nav {
 
 h1 {
   font-size: 30px;
+  margin-left: 15px;
 }
 
 main {
-  min-height: 100vh;
+  min-height: 70vh;
   max-width:fit-content;
   margin: auto;
   padding: 90px 30px 95px;
@@ -33,19 +34,33 @@ main {
 
 }
 
+main >h2 {
+  margin-top: 40px
+}
+
 main > img {
   width: 300px;
-  float: right;
+  float:right;
   margin-top: 50px;
   margin-bottom: 10px;
   box-shadow: 0 0 10px;
 }
 
+
 main .quote {
   text-align: center;
-  margin-top: 7em;
+  margin-top:30vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 23px;
+}
+
+main >p {
+  display: block;
+  margin-block-start: 8em;
+  margin-block-end: 8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: rgb(66, 42, 10);
 }
 
 
@@ -57,10 +72,14 @@ footer {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 10px;
   width: 100%;
-  justify-content: right;
+  box-shadow: 0 0 12px -1px rgb(150, 4, 150);
+}
 
+footer .button {
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .border-box {
@@ -143,10 +162,15 @@ footer {
 
 .border-box2 {
   border: 2px solid black;
-  padding: 20px;
+  padding: 90px 30px 95px;
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 0 12px -2px;
+  color: rgb(81, 48, 5);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  background-color: rgb(146, 154, 139)
 }
 
 .button {
