@@ -16,6 +16,19 @@ nav {
   justify-content: space-between;
 }
 
+footer {
+  background-color: darkolivegreen;
+  color: rgb(237, 180, 106);
+  height: 70px;
+  padding: 10px;
+  position: fixed;
+  align-items: center;
+  bottom: 10px;
+  display: flex;
+  width: 98%;
+  box-shadow: 0 0 12px -1px rgb(150, 4, 150);
+}
+
 h1 {
   font-size: 30px;
   margin-left: 15px;
@@ -65,18 +78,7 @@ main >p {
 }
 
 
-footer {
-  background-color: darkolivegreen;
-  color: rgb(237, 180, 106);
-  height: 70px;
-  padding: 10px;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 10px;
-  width: 100%;
-  box-shadow: 0 0 12px -1px rgb(150, 4, 150);
-}
+
 
 footer .button {
   margin-top: 15px;
